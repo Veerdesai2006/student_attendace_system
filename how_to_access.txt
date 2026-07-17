@@ -1,0 +1,77 @@
+Step 1: Check your folders
+
+Run:
+
+dir
+
+inside
+
+D:\project\student_attandence_system
+
+You should see something like:
+
+student_attandence_backend
+student_attandence_frontend
+Step 2: Go into the frontend
+
+Example:
+
+cd student_attandence_frontend
+Step 3: Verify package.json exists
+
+Run:
+
+dir
+
+You should see:
+
+package.json
+vite.config.js
+src
+public
+node_modules
+Step 4: Start React
+
+Now run:
+
+npm run dev
+
+It should start Vite.
+
+Backend
+
+Similarly, don't run the backend from the main project folder.
+
+Go to:
+
+cd ..\student_attandence_backend
+
+Then activate your virtual environment (if you have one):
+
+.\venv\Scripts\activate
+
+or
+
+.\.venv\Scripts\activate
+
+Then:
+
+python app.py
+Professional Folder Structure
+
+This is exactly how your project should look:
+
+student_attandence_system/
+│
+├── student_attandence_backend/
+│     app.py
+│     requirements.txt
+│     ...
+│
+└── student_attandence_frontend/
+      package.json
+      vite.config.js
+      src/
+      ...
+
+You never run python app.py or npm run dev from the root folder. You always run them from their respective project folders.
