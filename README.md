@@ -206,45 +206,49 @@ npm run dev
 
 ## Dashboard
 
-_Add screenshot here_
+![Dashboard](screenshots/dashbord.png)
 
 ---
 
 ## Students
 
-_Add screenshot here_
+![Students](screenshots/students.png)
 
 ---
 
 ## Teachers
 
-_Add screenshot here_
+![Teachers](screenshots/teachers.png)
 
 ---
 
 ## Subjects
 
-_Add screenshot here_
+![Subjects](screenshots/subjects.png)
 
 ---
 
 ## Classes
 
-_Add screenshot here_
+![Classes](screenshots/classes.png)
 
 ---
 
 ## Attendance
 
-_Add screenshot here_
+![Attendance](screenshots/attendance.png)
 
 ---
 
 ## Reports
 
-_Add screenshot here_
+![Reports](screenshots/reports.png)
 
 ---
+
+## Search
+
+![Search](screenshots/search.png)
 
 # 📈 Future Improvements
 
